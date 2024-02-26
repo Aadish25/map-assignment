@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+@media screen and (max-width: 580px) {
+  .container {
+    border-radius: 15%;
+    padding: 1rem;
+  }
+  body {
+    background-color: rgb(192, 187, 187);
+  }
+}
+.map {
+  width: 100%;
+}
+.detail {
+  background-color: black;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  /* border-radius: 2%; */
+}
+.box {
+  border-bottom: 1px solid gray;
+  overflow: hidden;
+  height: 100px;
+  width: 100%;
+}
+.box2 {
+  font-size: 1.5rem;
+  display: flex;
+  color: greenyellow;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+}
+#icon-gray {
+  color: gray;
+}
+#circle-check {
+  color: gray;
+}
+.box3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.personal {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.img-user {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.icon-contact {
+  border-radius: 100%;
+  color: black;
+  background-color: white;
+  padding: 0.5rem;
+}

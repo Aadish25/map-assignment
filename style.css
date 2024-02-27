@@ -9,7 +9,7 @@
   justify-content: space-evenly;
   flex-direction: column;
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 786px) {
   .container {
     border-radius: 15%;
     padding: 1rem;
